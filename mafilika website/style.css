@@ -1,0 +1,459 @@
+
+ html{
+
+    height: 100%;
+ }
+
+ @viewport {
+    width:device-width;
+    zoom: 1.0;
+}
+ 
+body{
+    background-color: rgb(27, 27, 27);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    }
+  
+    #nav h3{
+
+        color: black;
+        font-size: 24px;
+        line-height: 50px;
+        float: left;
+        padding: 0px 20px;
+    }
+    
+    #nav ul li a{
+    
+        margin-right: 200px;
+        
+       
+    
+    }
+   
+    #nav ul{
+    
+        float: right;
+    }
+    
+    #nav ul li{
+    
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+    
+    #nav{
+        overflow: hidden;
+        transition: all 0,5s;
+      animation:nav  1s ease delay 0.5 alternate;
+        
+    }
+    #nav ul li a{
+
+        
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 180px;
+    }
+    
+    
+  
+    
+    
+    #nav h3{
+        color: white;
+    }
+    
+    
+    
+   #nav ul li a:hover{
+    
+        border: 1px solid white;
+        font-size: 18px;
+        padding: 10px;
+     
+     }
+
+
+  
+
+   
+  .pic{
+    margin-left: 59% ;
+    
+    }
+        
+
+ .img{
+     float: left;
+     padding-top: 2%;
+     margin-left: 30px;
+    
+ }
+
+
+ .para {
+    box-shadow: 2px 2px 2px 2px black;
+    overflow: hidden;
+     font-size: 18px;
+     float: right;
+     line-height: 30px;
+     margin-left: 100px;
+     text-align: justify;
+     margin-top: 4%;
+     
+    
+ }
+ .para{
+
+    position: relative;
+    top: -10px;
+    left: -100px;
+ }
+
+ 
+ .form{
+
+ 
+    color: white;
+    margin: auto;
+    border-radius: 6px;
+    width: 30%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 190px;
+    margin-bottom: 90px;
+    padding-bottom: 70px;
+    
+
+    
+  }
+  .form h1{
+    text-align: center;
+  
+    
+   
+  }
+ 
+  .form input{
+    background-color:rgb(27, 27, 27);
+    color: white;
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 45px;
+  }
+
+ 
+  .button button{
+    background-color:rgb(27, 27, 27);
+    margin-left: 35%;
+    color: white;
+    font-size: 17px;
+    height: 35px;
+    width: 20%;
+    cursor: pointer;
+   
+  }
+
+
+.name{
+    
+    float: left;
+
+
+}
+.lastname{
+    
+    float: right;
+
+}
+.phone{
+
+    float: right;
+}
+.email{
+
+    float: left;
+}
+.text{
+    margin-left: 30%;
+margin-bottom: 10px;
+
+
+}
+
+textarea{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.head{
+    font-size: 35px;
+    float: left;
+    position: relative;
+    top: -450px;
+    margin-left: 30px;
+}
+
+#vid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5%;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    overflow: hidden;
+    transition:all .4s ease-in-out
+   
+    
+}
+
+.grid-container img{
+
+    transition:all .4s linear;
+
+}
+
+
+.grid-container img:hover{
+    
+    opacity: 0.3;
+    transform:scale(1.2);
+}
+
+
+.lindeka img{
+
+     margin-left: 50%;
+}
+
+
+.lindeka p{
+
+    float: left;
+    position: relative;
+    top: -350px;
+    padding-left: 18px;
+    font-size: 20px;
+    line-height: 40px;
+    
+    
+}
+
+.lindeka h2{
+
+    
+    position: relative;
+    top: -350px;
+    padding-left: 18px;
+   
+
+    
+    
+}
+
+#button button{
+
+        background-color:rgb(27, 27, 27);
+        margin-right: 50%;
+        color: white;
+        font-size: 17px;
+        height: 40px;
+        width: 10%;
+        cursor: pointer;
+        
+}
+
+.fa-instagram{
+
+    color: white;
+    font-size: 30px;
+
+}
+
+.fa-instagram:hover{
+
+    color: grey;
+    
+    
+}
+
+.fa-facebook{
+
+    
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 5px;
+}
+
+.fa-facebook:hover{
+
+    color: grey;
+    
+    
+}
+.fa-at{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    right: -3px;
+}
+
+.fa-at:hover{
+
+    color: grey;
+    
+    
+}
+
+
+.head{
+
+    overflow: hidden;
+}
+
+.social_media{
+    text-align: center;
+
+}
+.form input::after{
+
+    background-color: white;
+    color: black;
+}
+
+
+.head p {
+    animation: 2s slide-down;
+    margin-top:0%;
+  }
+  
+  @keyframes slide-down {
+    from {
+      margin-top: -100%;
+      height: 300%; 
+    }
+  
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
+  }
+
+
+
+
+  @media (min-width: 320px) and (max-width: 600px){
+
+     ul li {
+        display: inline ;
+        font-family: cursive;
+        }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 600px){
+
+
+    ul li a:hover{
+        background-color: rgb(114, 113, 113);
+      }
+  }
+
+
+  @media (min-width: 320px) and (max-width: 900px){
+
+ .head{
+    font-size: 30px; 
+
+}
+}
+
+@media (min-width: 320px) and (max-width: 800px){
+
+
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    
+    
+      
+}
+
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    .text{
+     margin-left: 20%;
+    margin-bottom: 10px;
+    
+    }
+    
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+
+
+}
+
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    
+
+  
+}
+
+
+@media (min-width: 300px) and (max-width: 400px){
+
+ 
+
+
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 600px){
+
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 600px){
+
+  
+}
+
+
+
+}
